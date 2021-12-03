@@ -25,7 +25,6 @@ The stacktrace of this Error should also indicate its cause.\`
     }
   )
   globalThis.window = proxyCreator("window");
-  globalThis.document = proxyCreator("document");
 }
 `;
 
